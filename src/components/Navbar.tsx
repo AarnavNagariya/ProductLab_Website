@@ -32,7 +32,7 @@ function Navbar() {
             </li>
             <li>
               
-              <a href="#"> Shop </a>
+              <a href="#"> Tools </a>
               <ul className="Dropdown">
                 <li>
                   
@@ -54,7 +54,7 @@ function Navbar() {
             </li>
             <li>
               
-              <a href="#"> About </a>
+              <a href="#"> Contribute </a>
             </li>
             <li>
               

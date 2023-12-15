@@ -1,0 +1,26 @@
+.Aboutus {
+    display: grid;
+    grid-template-columns: 2fr 5fr 9fr;
+    /* grid-row-gap: 5px;
+    grid-column-gap: 5px; */
+    /* grid-gap: 5px; */
+    grid-gap: 0em;
+    grid-auto-rows: minmax(250px, auto);
+    
+  }
+
+  .Aboutus>div {
+    background: #21328F;
+    padding: 3em;
+    grid-gap: 1em;
+    color: white;
+  }
+
+  .contact-info>a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .Contact{
+    font-size: 20px;
+  }

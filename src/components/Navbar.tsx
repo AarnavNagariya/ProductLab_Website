@@ -34,7 +34,7 @@ function Navbar({ activeIndex }: NavbarProps) {
             </li>
             <li className={activeIndex === 2 ? 'active' : ''}>
               <a href="#">
-                <Link to="/tools">APIs</Link>
+                <Link to="/API">APIs</Link>
               </a>
             </li>
             <li className={activeIndex === 3 ? 'active' : ''}>

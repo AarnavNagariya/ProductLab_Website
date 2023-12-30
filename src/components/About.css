@@ -7,11 +7,11 @@
     /* grid-gap: 5px; */
     grid-gap: 0em;
     grid-auto-rows: minmax(250px, auto);
+    background: #21328F;
     
   }
 
   .Aboutus>div {
-    background: #21328F;
     padding: 3em;
     grid-gap: 1em;
     color: white;
@@ -66,11 +66,11 @@
     /* grid-gap: 5px; */
     grid-gap: 0em;
     grid-auto-rows: minmax(20vh, auto);
+    background: #21328F;
     
   }
 
   .Aboutus>div {
-    background: #21328F;
     padding: 1vh;
     /* grid-gap: 1em; */
     color: white;

@@ -1,0 +1,166 @@
+@media only screen and (min-width: 700px) {
+    body {
+      font-family: 'Prompt', sans-serif;
+    }
+  
+    .bodycontainer {
+      display: grid;
+      grid-template-columns: 1fr 20fr 1fr;
+      grid-auto-rows: max-content;
+    }
+  
+    .bodycontainer>div {
+      padding: 1em;
+      grid-gap: 1em;
+      grid-column: 2;
+    }
+  
+    #bod {
+      background: #FFF;
+    }
+  
+    .API {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    .API>div {
+      margin: 0.5em;
+    }
+  
+    .API-container {
+      display: flex;
+      flex-direction: column;
+      border-radius: 1em;
+      border: solid 1.5px lightgrey;
+      align-items: center;
+      padding: 0.5em;
+    }
+  
+    div.API-title {
+      font-family: 'Prompt', sans-serif;
+      font-weight: lighter;
+      font-size: 32px;
+      text-align: center;
+    }
+  
+    .API-content, .API-container>p {
+      font-family: 'Prompt', sans-serif;
+      /* font-weight: lighter; */
+      font-size: 16px;
+      margin: 0;
+      text-align: left;
+      padding-block: 1em
+    }
+  
+    .API-buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .API-buttons>button {
+      font-family: 'Prompt', sans-serif;
+      font-size: medium;
+      margin: 1em;
+      padding: 1em;
+      padding-inline: 1.5em;
+      border-radius: 1em;
+    }
+  
+    .API-get {
+      color: #FFF;
+      border: 0px;
+      background: #21328F;
+    }
+  
+    .API-doc {
+      color: #000;
+      border: solid 1.5px lightgrey;
+      background: #FFF;
+    }
+  }
+
+
+
+
+  @media only screen and (max-width: 700px) {
+    body {
+      font-family: 'Prompt', sans-serif;
+    }
+  
+    .bodycontainer {
+      display: grid;
+      grid-template-columns: 1fr 20fr 1fr;
+      grid-auto-rows: max-content;
+    }
+  
+    .bodycontainer>div {
+      padding: 1em;
+      grid-gap: 1em;
+      grid-column: 2;
+    }
+  
+    #bod {
+      background: #FFF;
+    }
+  
+    .API {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    .API>div {
+      margin: 0.5em;
+    }
+  
+    .API-container {
+      display: flex;
+      flex-direction: column;
+      border-radius: 1em;
+      border: solid 1.5px lightgrey;
+      align-items: center;
+      padding: 0.5em;
+    }
+  
+    div.API-title {
+      font-family: 'Prompt', sans-serif;
+      font-weight: lighter;
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .API-container>p {
+      font-family: 'Prompt', sans-serif;
+      /* font-weight: lighter; */
+      font-size: 12px;
+      margin: 0;
+      text-align: center;
+      padding-block: 1em
+    }
+  
+    .API-buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .API-buttons>button {
+      font-family: 'Prompt', sans-serif;
+      font-size: small;
+      margin: 1em;
+      padding: 0.5em;
+      padding-inline: 1em;
+      border-radius: 1em;
+    }
+  
+    .API-get {
+      color: #FFF;
+      border: 0px;
+      background: #21328F;
+    }
+  
+    .API-doc {
+      color: #000;
+      border: solid 1.5px lightgrey;
+      background: #FFF;
+    }
+  }

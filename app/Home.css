@@ -1,0 +1,143 @@
+@media only screen and (min-width: 700px) {
+  .flex-container {
+    display: flex;
+  }
+
+
+  .Wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-row-gap: 5px;
+      grid-column-gap: 5px; */
+    /* grid-gap: 5px; */
+    grid-gap: 0.1em;
+    grid-auto-rows: minmax(50px, auto);
+  }
+
+
+  .bodycontainer {
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr;
+    /* grid-row-gap: 5px;
+      grid-column-gap: 5px; */
+    /* grid-gap: 5px; */
+    grid-gap: 0.1em;
+    grid-auto-rows: minmax(2000px, auto);
+  }
+
+
+  .bodycontainer>div {
+    padding: 1em;
+    grid-gap: 1em;
+  }
+
+  #bod {
+    grid-column: 2;
+    background: #EEF6FF;
+  }
+
+  #bod>p {
+    font: Prompt;
+    color: #21328F;
+    /* Set the text color */
+    font-size: 52px;
+    /* Set the text size */
+    margin: 0;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .merger {
+    grid-column: 1/3;
+    grid-row: 3/5;
+  }
+
+
+  .Wrapper>div {
+    /* background: darkblue; */
+    padding: 1em;
+    grid-gap: 1em;
+  }
+
+  .naughty {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+  }
+
+  .naughty>div {
+    background-color: white;
+    height: 200px;
+    padding: 1em;
+    border-radius: 50px;
+  }
+
+  .search-container {
+    display: flex;
+    border-radius: 20px;
+    /* Set the border-radius for curved edges */
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-input {
+    border: 1px solid #21328F;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    /* Set border-radius for the left side of the input */
+    width: 20vw;
+  }
+
+  .searchbutton {
+    background-color: #21328F;
+    color: #fff;
+    border: 1px solid #21328F;
+    padding: 10px 20px;
+    border-radius: 0 20px 20px 0;
+  }
+
+  #heading u {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    /* Adjust the thickness as needed */
+    padding-bottom: 0.1em;
+  }
+
+  .Home {
+    padding: 15px 25px;
+  }
+
+  .Home>p {
+    font-size: 20px;
+  }
+
+  .Home>img {
+    display: flex;
+    justify-content: center;
+    padding-left: 7%;
+    align-items: center;
+    width: 85%;
+    height: 50%;
+    margin: 0;
+  }
+
+  #home-images {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-items: center;
+    align-items: center;
+  }
+
+  #heading {
+    color: #21328F;
+    font-size: 40px;
+  }
+
+  .video-container {
+    /* position: relative; */
+    padding: 10px;
+    width: 670px;
+  }
+}

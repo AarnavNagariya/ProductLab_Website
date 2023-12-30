@@ -1,0 +1,121 @@
+@media only screen and (min-width: 700px) {
+.Aboutus {
+    display: grid;
+    grid-template-columns: 2fr 5fr 9fr;
+    /* grid-row-gap: 5px;
+    grid-column-gap: 5px; */
+    /* grid-gap: 5px; */
+    grid-gap: 0em;
+    grid-auto-rows: minmax(250px, auto);
+    background: #21328F;
+    
+  }
+
+  .Aboutus>div {
+    padding: 3em;
+    grid-gap: 1em;
+    color: white;
+  }
+
+  .contact-info>a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .Contact{
+    font-size: 20px;
+  }
+  .contact-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    grid-column: 2;
+  }
+
+  .contact-logo {
+    width: 40px; /* Set the width of the logo images */
+    height: 40px; /* Set the height of the logo images */
+    /* padding: 7px; */
+    margin: 5px;
+  }
+
+  .contact-info {
+    font-size: 1.2rem;
+    /*margin-bottom: 20px; /* Add spacing between number and email */
+  }
+
+  .flex1 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  } 
+  .Back{
+    color: white;
+    font-size: 32px;
+  }
+
+  .Desc{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  .Aboutus {
+    display: grid;
+    grid-template-columns: 0vw 50vw 50vw;
+    /* grid-row-gap: 5px;
+    grid-column-gap: 5px; */
+    /* grid-gap: 5px; */
+    grid-gap: 0em;
+    grid-auto-rows: minmax(20vh, auto);
+    
+  }
+
+  .Aboutus>div {
+    background: #21328F;
+    padding: 1vh;
+    /* grid-gap: 1em; */
+    color: white;
+  }
+
+  .contact-info>a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .Contact{
+    font-size: 12px;
+  }
+  .contact-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact-logo {
+    width: 8vw; /* Set the width of the logo images */
+    height: 8vw; /* Set the height of the logo images */
+    padding: 2vw;
+  }
+
+  .contact-info {
+    font-size: 12px;
+    margin-bottom: 10px; /* Add spacing between number and email */
+  }
+
+  .flex1{
+    display: flex;
+
+  } 
+  .Back{
+    color: white;
+    font-size: 12px;
+  }
+
+  .Desc{
+    font-size: 7px;
+  }
+
+}
+

@@ -1,64 +1,47 @@
-import "./Navbar.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
-function Navbar() {
+interface NavbarProps {
+  activeIndex: number;
+}
+
+function Navbar({ activeIndex }: NavbarProps) {
   return (
     <>
       <nav>
-        <div/>
+        <div />
         <div>
           <ul id="navbar">
-            <li>
-              <a className="active" href="#">
-                Home
+            <li className={activeIndex === 1 ? 'active' : ''}>
+              <a href="#">
+                <Link to="/">Home</Link>
               </a>
               <ul className="Dropdown">
                 <li>
-                  
-                  <a href="#"> Item1 </a>
+                  <a href="#">Item1</a>
                 </li>
                 <li>
-                  
-                  <a href="#"> Item1 </a>
+                  <a href="#">Item2</a>
                 </li>
                 <li>
-                  
-                  <a href="#"> Item1 </a>
+                  <a href="#">Item3</a>
                 </li>
                 <li>
-                  
-                  <a href="#"> Item1 </a>
+                  <a href="#">Item4</a>
                 </li>
               </ul>
             </li>
-            <li>
-              
-              <a href="#"> Tools </a>
-              <ul className="Dropdown">
-                <li>
-                  
-                  <a href="#"> Item1 </a>
-                </li>
-                <li>
-                  
-                  <a href="#"> Item1 </a>
-                </li>
-                <li>
-                  
-                  <a href="#"> Item1 </a>
-                </li>
-                <li>
-                  
-                  <a href="#"> Item1 </a>
-                </li>
-              </ul>
+            <li className={activeIndex === 2 ? 'active' : ''}>
+              <a href="#">
+                <Link to="/tools">APIs</Link>
+              </a>
             </li>
-            <li>
-              
-              <a href="#"> Contribute </a>
+            <li className={activeIndex === 3 ? 'active' : ''}>
+              <a href="#">Contribute</a>
             </li>
-            <li>
-              
-              <a href="#"> Contact </a>
+            <li className={activeIndex === 4 ? 'active' : ''}>
+              <a href="#">Contact</a>
             </li>
           </ul>
         </div>

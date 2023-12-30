@@ -1,22 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-import Navbar from './components/Navbar'
-import Header from './components/Header'
-import About from './components/About'
+import './Home.css'
 
-import img1 from './assets/img1.png';
-import img2 from './assets/img2.png';
-import img3 from './assets/img3.png';
+import Navbar from '../components/Navbar'
+import Header from '../components/Header'
+import About from '../components/About'
+
+import img1 from '../assets/img1.png';
+import img2 from '../assets/img2.png';
+import img3 from '../assets/img3.png';
 
 
-function App() {
+function Home() {
   // const [count, setCount] = useState(0)
 
   return (
     <div className="App">
       <Header/>
-      <Navbar/>
+      <Navbar activeIndex={1}/>
       <div className="bodycontainer">
         <div></div>
         <div id="bod">
@@ -24,18 +23,19 @@ function App() {
 
           <div className="search-container">
             <input type="text" className="search-input" placeholder="Search..." />
-            <button className="search-button">Search</button>
+            <button className="searchbutton">Search</button>
+            {/* <button className="search-button"><span className="icon"></span></button> */}
           </div>
-
+    
           <div className="Home">
-            <div id="heading"> Home</div>
+            <div id="heading"> <u>Home</u></div>
             <p>
               We apply insights from Indian Grammatical Tradition to design Universal Semantic Representation (USR) for discourse. We can generate documents in multiple languages from these representations.
             </p>
             <img src={img1} alt="Figure 1" />
             <img src={img2} alt="Figure 2" id="instantiated" />
             <img src={img3} alt="Figure 3" />
-
+            
             <p>
               The sentences generated are:<br />
 
@@ -55,4 +55,4 @@ function App() {
   )
 }
 
-export default App
+export default Home

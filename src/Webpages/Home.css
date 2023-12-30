@@ -1,9 +1,10 @@
+
+@media only screen and (min-width: 700px) {
 .flex-container{
     display: flex;
   
   }
-  
-  
+
   body{
   
     font-family: 'Prompt', sans-serif;
@@ -31,24 +32,7 @@
       grid-gap: 0.1em;
       grid-auto-rows: minmax(2000px, auto);
     }
-  
-    .Aboutus {
-      display: grid;
-      grid-template-columns: 2fr 5fr 9fr;
-      /* grid-row-gap: 5px;
-      grid-column-gap: 5px; */
-      /* grid-gap: 5px; */
-      grid-gap: 0em;
-      grid-auto-rows: minmax(250px, auto);
-      
-    }
-  
-    .Aboutus>div {
-      background: #21328F;
-      padding: 3em;
-      grid-gap: 1em;
-      color: white;
-    }
+
   
     .bodycontainer>div {
       padding: 1em;
@@ -66,22 +50,7 @@
       text-align: center;
       padding-top: 15px;
     }
-  
-  
-    .bigrow {
-      grid-column:1/3;
-      background-color: #21328F;
-    }
-  
-    .bigrowcolumn {
-      grid-column:1/3;
-      grid-row:1/3;
-    }
-    .bigrowcolumn>img {
-      width: 10%;
-      height: 100%;
-    }
-    
+
     .merger{
       grid-column: 1/3;
       grid-row: 3/5;
@@ -119,25 +88,62 @@
       border: 1px solid #21328F;
       padding: 10px;
       border-radius: 20px 0 0 20px; /* Set border-radius for the left side of the input */
-      width: 200px;
+      width: 150px;
     }
-  
-    .search-button {
+
+    .searchbutton{
       background-color: #21328F;
       color: #fff;
       border: 1px solid #21328F;
       padding: 10px 20px;
-      border-radius: 0 20px 20px 0; /* Set border-radius for the right side of the button */
+      border-radius: 0 20px 20px 0;
+    }
+  
+    .search-button {
+      /* background-color: #21328F;
+      color: #fff;
+      border: 1px solid #21328F;
+      padding: 10px 20px;
+      border-radius: 0 20px 20px 0; Set border-radius for the right side of the button */
+      background-image: url('./assets/Group 15.png'); /* Replace with the path to your background image */
+      background-size: cover; /* Adjust as needed */
+      background-position: center; /* Adjust as needed */
+      background-repeat: no-repeat; /* Make sure the background image doesn't repeat */
+
+      /* Additional styling for the button */
+      width: 37px; /* Set the width of your button */
+      height: 37px; /* Set the height of your button */
+      border: none;
       cursor: pointer;
+    }
+
+    .icon {
+      background-image: url('./assets/search.png'); /* Replace with the path to your icon image */
+      background-size: contain; /* Adjust as needed */
+      background-position: center; /* Adjust as needed */
+      background-repeat: no-repeat; /* Make sure the icon image doesn't repeat */
+    
+      /* Additional styling for the icon */
+      display: inline-block;
+      width: 20px; /* Set the width of your icon */
+      height: 20px; /* Set the height of your icon */
+    }
+
+    #heading u {
+      text-decoration: none;
+      border-bottom: 1px solid; /* Adjust the thickness as needed */
+      padding-bottom: 0.1em;
+
     }
   
     .Home {
       
       padding: 15px 25px;
+      
     }
   
     .Home>p {
-      font-size: 24px;
+      font-size: 20px;
     }
   
     .Home>img {
@@ -145,8 +151,8 @@
       justify-content: center;
       padding-left: 7%;
       align-items: center;
-      width: 1100px;
-      height: 600px;
+      width: 85%;
+      height: 50%;
       margin: 0;
       
     }
@@ -169,44 +175,5 @@
       /* position: relative; */
       padding: 10px;
       width: 670px;
-      height: 364px;
-      border-radius: 4px;
-      transform: translate(40%, 0%);
-      overflow: hidden; /* Set the maximum width of the video container */
     }
-  
-    video {
-      width: 100%; /* Make the video fill its container */
-      border-radius: 20px; /* Set border-radius for curved edges */
-    }
-  
-  
-    .contact-container {
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-  
-    .contact-logo {
-      width: 50px; /* Set the width of the logo images */
-      height: 50px; /* Set the height of the logo images */
-      padding: 7px;
-    }
-  
-    .contact-info {
-      font-size: 1.2rem;
-      margin-bottom: 20px; /* Add spacing between number and email */
-    }
-  
-    .flex1{
-      display: flex;
-  
-    } 
-    .Back{
-      color: white;
-      font-size: 32px;
-    }
-  
-    .Desc{
-      font-size: 20px;
-    }
+}

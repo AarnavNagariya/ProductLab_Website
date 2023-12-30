@@ -24,7 +24,7 @@ function About() {
       </div>
     </div>
     <div>
-      <p className = "Back"> <b>Contribute</b></p> 
+      <p className = "Back"> <b>About the company</b></p> 
       <p className = "Desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan vel praesent maecenas mauris, dignissim massa. Et vel neque fermentum ipsum cursus nunc, quam varius. Eu ut scelerisque </p>
 
     </div>
